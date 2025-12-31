@@ -1,0 +1,33 @@
+cat > .gitignore << 'EOF'
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual envs ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- OS / editor ----
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+
+# ---- Logs ----
+*.log
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Secrets ----
+.env
+EOF
