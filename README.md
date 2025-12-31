@@ -23,7 +23,7 @@ High-level flow:
 
 ## Prerequisites
 - Python 3.9+
-- A SingleStore account (Free tier works)
+- A [SingleStore account](https://www.singlestore.com/cloud-trial/?utm_medium=referral&utm_source=pavan&utm_term=youtube&utm_content=aimemory) (Free tier works)
 - OpenAI API key
 
 ### Setup Instructions
